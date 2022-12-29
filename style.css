@@ -111,7 +111,7 @@ input[type=checkbox] {
     flex-direction: column;
 }
 
-input[type=textarea] {
+textarea {
     height: 5em;
     width: 300px;
 }
