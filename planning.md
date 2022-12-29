@@ -1,74 +1,74 @@
-### Planning
+# Planning
 
 ## HTML tags to help with project:
 
 Page 1
 
 Navigation Bar linking to all 4 pages
-    <a>
+    <-- a -->
 
 1 header using H1
-    <h1>
+    <-- h1 -->
 
 3 sections of text with H2 headers
-    <h2> <p>
+    <-- h2 --> <-- p -->
 1 image
-    <img>
+    <-- img -->
 
 
 Page 2
 Navigation Bar linking to all 4 pages
-    <a>
+    <-- a -->
 HTML form:
 1 fieldset
-    <fieldset>
+    <-- fieldset -->
 3 inputs
-    <input> <label>
+    <-- input --> <-- label -->
     3 text
         type="text"
     1 checkbox
         type="checkbox"
 1 textarea
-    <input type="textarea"> <label>
+    <-- input type="textarea" --> <-- label -->
 1 button
-    <input type="submit">
+    <-- input type="submit" -->
 
 
 Page 3
 Navigation Bar linking to all 4 pages
-    <a>
+    <-- a -->
 1 header using H1
-    <h1>
+    <-- h1 -->
 1 ordered or unordered list of links to 5 other websites
-    <ul>/<ol> <li>
+    <-- ul -->/<-- ol --> <-- li -->
 
 
 Page 4
 Navigation Bar linking to all 4 pages
-    <a>
+    <-- a -->
 1 header using H1
-    <h1>
+    <-- h1 -->
 6 images displayed 3 wide and 2 down
-    <img src="">
+    <-- img src="" -->
 A label for each image
-    <img alt="" target="_blank">
+    <-- img alt="" target="_blank" -->
 Clicking on the image opens the source of that image in a new window
-    <a>
+    <-- a -->
 
 ## Links, fonts, and colors:
 
-# Fonts:
+### Fonts:
     titles: serif
     text: Helvetica
     color: OD1321
 
-# Other Colors:
+### Other Colors:
     A2E8DD
     F7DD72
     9BA2FF
     F67E7D
 
-# Links:
+### Links:
     beginner climbing tips: https://www.99boulders.com/beginner-climbing-tips
 
     Climbing tips from magnus: https://www.youtube.com/watch?v=wS9OGHe16R4&list=PLeJKOAwz2xZ5VNwJNWDaBqMgIbVmvT3Eg
