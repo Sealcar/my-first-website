@@ -34,70 +34,36 @@ a:visited {
 /* Page 1 */
 
 .mainText {
-    display: grid;
-    grid-template: 3em 420px 3em 305px 610px 3em 220px 480px/ 1fr 600px 1fr;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     line-height: 18pt;
 }
 
-.topRopeTitle {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.topRope {
-    grid-column: 2;
-    grid-row: 2;
-}
-
-.boulderTitle {
-    grid-column: 2;
-    grid-row: 3;
-}
-
-.boulder {
-    grid-column: 2;
-    grid-row: 4;
-}
-
-.joinTitle {
+.topRopeTitle, .boulderTitle, .joinTitle, .me, .brother {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 20px;
-    grid-column: 2;
-    grid-row: 6;
-}
-
-.join {
-    grid-column: 2;
-    grid-row: 7;
-}
-
-.me {
-    display: flex;
     width: 600px;
-    height: 600px;
-    grid-column: 2;
-    grid-row: 5;
-    align-items: center;
 }
+
+.topRope, .boulder, .join {
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+}
+
 
 #me {
-    width: 95%;
-    height: 95%;
-}
-
-.brother {
-    display: flex;
-    align-items: center;
     width: 600px;
-    height: 480px;
-    grid-column: 2;
-    grid-row: 8;
+    height: 700px;
+    align-items: center;
+
 }
 
 #brother {
-    width: 95%;
-    height: 95%;
+    width: 600px;
+    height: 500px;
 }
 
 /* Page 2 */
