@@ -97,6 +97,25 @@ input[type=checkbox] {
     margin-left: 5px;
 }
 
+.climbType {
+    display: flex;
+    flex-direction: column;
+}
+
+#climbType {
+    width: 150px;
+}
+
+.partnerReason {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=textarea] {
+    height: 5em;
+    width: 300px;
+}
+
 /* Page 3 */
 
 ul {
