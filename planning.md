@@ -2,7 +2,7 @@
 
 ## HTML tags to help with project:
 
-Page 1
+### Page 1
 
 Navigation Bar linking to all 4 pages
     <-- a -->
@@ -17,7 +17,7 @@ Navigation Bar linking to all 4 pages
     <-- img -->
 
 
-Page 2
+### Page 2
 
 Navigation Bar linking to all 4 pages
     <-- a -->
@@ -43,7 +43,7 @@ HTML form:
     <-- input type="submit" -->
 
 
-Page 3
+### Page 3
 
 Navigation Bar linking to all 4 pages
     <-- a -->
@@ -55,7 +55,7 @@ Navigation Bar linking to all 4 pages
     <-- ul -->/<-- ol --> <-- li -->
 
 
-Page 4
+### Page 4
 
 Navigation Bar linking to all 4 pages
     <-- a -->
