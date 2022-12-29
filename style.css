@@ -1,0 +1,164 @@
+/* General */
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+div.nav > * {
+    margin: 0 20px;
+}
+
+h1 {
+    display: flex;
+    font-family: Serif;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+body {
+    font-family: Helvetica;
+    color: #F7DD72;
+    background-color: #0D1321;
+}
+
+a {
+    color: #A2E8DD;
+}
+
+a:visited {
+    color: #9BA2ff;
+}
+
+/* Page 1 */
+
+.mainText {
+    display: grid;
+    grid-template: 3em 420px 3em 305px 610px 3em 220px 480px/ 1fr 600px 1fr;
+    line-height: 18pt;
+}
+
+.topRopeTitle {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.topRope {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.boulderTitle {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.boulder {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.joinTitle {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.join {
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.me {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    grid-column: 2;
+    grid-row: 5;
+    align-items: center;
+}
+
+#me {
+    width: 95%;
+    height: 95%;
+}
+
+.brother {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 480px;
+    grid-column: 2;
+    grid-row: 8;
+}
+
+#brother {
+    width: 95%;
+    height: 95%;
+}
+
+/* Page 2 */
+
+form {
+    display: grid;
+    grid-template: 1fr / 1fr 600px 1fr;
+    margin-top: 100px;
+}
+
+fieldset {
+    grid-column: 2;
+}
+
+legend {
+    padding: 5px 10px;
+    margin-left: 40px;
+    border: 1px solid #F7DD72;
+}
+
+fieldset > div {
+    margin: 20px 0 20px 40px;
+
+}
+
+label[for=beginner] {
+    margin: 0 5px 0 40px;
+}
+
+input[type=checkbox] {
+    margin-left: 5px;
+}
+
+/* Page 3 */
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+li {
+    margin: 10px 0;
+    font-size: x-large;
+}
+
+#last {
+    order: 2;
+}
+
+
+/* Page 4 */
+
+.imageGrid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+#rcimage {
+    width: 99%;
+    height: 440px;
+}
