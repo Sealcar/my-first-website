@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <a href="\\wsl.localhost\Ubuntu\home\derek\aa-projects\my-first-website\page1.html">Page 1</a>
+        <a href="\\wsl.localhost\Ubuntu\home\derek\aa-projects\my-first-website\page2.html">Page 2</a>
+        <a href="\\wsl.localhost\Ubuntu\home\derek\aa-projects\my-first-website\page3.html">Page 3</a>
+        <a href="\\wsl.localhost\Ubuntu\home\derek\aa-projects\my-first-website\page4.html">Page 4</a>
+    </div>
+
+
+    <form action="url-to-submit-to" method="post">
+        <fieldset>
+        <legend>Find A Rock Climbing Partner</legend>
+
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="full_name">
+            </div>
+
+            <div>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="text" id="phoneNumber" name="phone_number">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <p>
+                    Are you a beginner?
+                </p>
+                <label for="beginner">Yes</label>
+                <input type="checkbox" id="beginner" name="beginner">
+                <label for="notBeginner">No</label>
+                <input type="checkbox" id="notBeginner" name="not_beginner">
+            </div>
+
+            <div>
+                <label for="climbType">
+                    What kind of climbing would you like
+                    a partner for?
+                </label>
+                <select id="climbType" name="climb_type">
+                    <option>None</option>
+                    <option>Bouldering</option>
+                    <option>Top Roping</option>
+                    <option>Lead Climbing</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="partnerReason">Why do you want a partner?</label>
+                <input type="textarea" id="partnerReason" name="partner_reason">
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
