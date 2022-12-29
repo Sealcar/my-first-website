@@ -1,6 +1,6 @@
-# Planning
+### Planning
 
-## HTML tags to help with project
+## HTML tags to help with project:
 
 Page 1
 
@@ -55,20 +55,20 @@ A label for each image
 Clicking on the image opens the source of that image in a new window
     <a>
 
-## Links, fonts, and colors
+## Links, fonts, and colors:
 
-### Fonts
+# Fonts:
     titles: serif
     text: Helvetica
     color: OD1321
 
-### Other Colors
+# Other Colors:
     A2E8DD
     F7DD72
     9BA2FF
     F67E7D
 
-### Links
+# Links:
     beginner climbing tips: https://www.99boulders.com/beginner-climbing-tips
 
     Climbing tips from magnus: https://www.youtube.com/watch?v=wS9OGHe16R4&list=PLeJKOAwz2xZ5VNwJNWDaBqMgIbVmvT3Eg
